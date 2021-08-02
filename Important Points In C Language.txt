@@ -1,0 +1,60 @@
+C is a  machine independent language. 
+
+"c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt", 
+
+C program execution steps 
+
+ 
+
+Pre processing-> Compilation -> Assembly -> Linking 
+
+ 
+
+Pre Processing 
+
+ 
+
+Removes Comments and expands macros. 
+
+ 
+
+Include the contents of header files. 
+
+ 
+
+.i file contain preprocessed output which step 1 of C file execution. 
+
+ 
+
+Compilation 
+
+ 
+
+It convert the preprocess .i file into .s file which is assembly file. 
+
+ 
+
+.s file get converted into .o file which is machine level insturnction. 
+
+ 
+
+ 
+
+Linking 
+
+ 
+
+It links all the .o file for execution. 
+
+ 
+
+gcc -Wall -save-temps Hello_World.c -o vishal 
+
+ 
+
+This command will creates the files that we discussed above. 
+
+
+
+
+everything except 0 is true in c language
