@@ -13,3 +13,20 @@ void main()
         printf("%d %d\n",i,j);
     }    
 }
+
+/* Below code will help you to understand the flow of control in for loop expressions
+
+for(printf("Expression1\t");printf("Expression2\t");printf("Expression3\t"))
+    {
+        printf("\nIn the code\n");
+    }
+    return 0;
+
+    
+    output==
+    Expression1     Expression2
+    In the code
+    Expression3     Expression2
+    In the code
+    Expression3     Expression2
+*/

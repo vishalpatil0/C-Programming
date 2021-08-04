@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 void main()
-{   int i;
-    while(i+=5,i<100)
+{   int i=0;
+    for(i<10;;i+=9)
     {
-        printf("%d",i);
+        printf("%i",i);
     }
 }
