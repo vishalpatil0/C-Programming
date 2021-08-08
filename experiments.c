@@ -1,9 +1,11 @@
 #include<stdio.h>
 
 void main()
-{   int i=0;
-    for(i<10;;i+=9)
+{   int arr[10];
+    arr[3]=34;
+    for (int i = 0; i < 10; i++)
     {
-        printf("%i",i);
+        printf("%d\n",arr[i]);
     }
+    
 }
