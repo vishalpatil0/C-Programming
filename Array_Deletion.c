@@ -28,10 +28,10 @@ void main()
             array[i]=array[i+1];
 
         }
-        array[length-1]=
+        array[length-1]=NULL;
         printf("New array is as following : \n");
 
-        for (int i = 0; i < length; i++)
+        for (int i = 0; i <= length; i++)
         {
             printf("%d\n",array[i]);
         }

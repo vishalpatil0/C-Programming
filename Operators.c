@@ -3,6 +3,8 @@
 #include<stdio.h>
 int main(int argc, char const *argv[])
 {
+    //Address of operator & returns the address
+    //Dereference operator * is used to get the value of the operator
     //Arithemetic Operators
     int a=10,b=5;
     printf("%d + %d = %d\n",a,b,a+b);
