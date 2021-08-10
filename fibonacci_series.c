@@ -1,17 +1,17 @@
 #include<stdio.h>
 
-int fib(int);
-int n1=0,n2=1,n3;
+long fib(long);
+long n1=0,n2=1,n3;
 
 void main()
 {
 
-    /*// Iterative mode
-    int first=0,second=1,next,num;
+    // Iterative mode
+    long first=0,second=1,next,num;
     printf("Enter the number = ");
-    scanf("%d",&num);
+    scanf("%ld",&num);
 
-    for (int i = 0; i <= num; i++)
+    for (long i = 0; i <= num; i++)
     {
         if(i<=1)
         {
@@ -23,32 +23,32 @@ void main()
             first=second;
             second=next;
         }
-        printf("%d\n",next);
+        
     }
-    */
+    printf("%ld\n",next);
     
 
     //Recursive Mode
 
-    int n;
+    // long n;
     
-    printf("Enter the number");
-    scanf("%d",&n);
-    fib(n);
+    // printf("Enter the number");
+    // scanf("%ld",&n);
+    // fib(n);
 }
 
-int fib(int n)
-{
-    if(n1==0 && n2==1)
-    {
-        printf("%d\n%d\n",n1,n2);
-    }
-    if(n>0)
-    {
-        n3=n1+n2;
-        n1=n2;
-        n2=n3;
-        printf("%d\n",n3);
-        fib(n-1);
-    }
-}
+// long fib(long n)
+// {
+//     if(n1==0 && n2==1)
+//     {
+//         printf("%ld\n%ld\n",n1,n2);
+//     }
+//     if(n>0)
+//     {
+//         n3=n1+n2;
+//         n1=n2;
+//         n2=n3;
+//         printf("%ld\n",n3);
+//         fib(n-1);
+//     }
+// }

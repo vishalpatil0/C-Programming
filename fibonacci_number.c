@@ -1,16 +1,16 @@
 #include<stdio.h>
 
-int fib(int);
+long fib(long);
 
 void main()
 {
     printf("Enter the number = ");
-    int n;
-    scanf("%d",&n);
-    printf("Fibonacci number = %d",fib(n));
+    long n;
+    scanf("%ld",&n);
+    printf("Fibonacci number = %ld",fib(n));
 }
 
-int fib(int n)
+long fib(long n)
 {
     if(n<=1 && !(n<0))
     {

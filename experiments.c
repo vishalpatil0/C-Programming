@@ -2,8 +2,8 @@
 
 void main()
 {   
-    int a=NULL;
-    printf("%d\n",a);
-
-    
+    int a=10;
+    int* p=&a,b;
+    b=23;
+  
 }

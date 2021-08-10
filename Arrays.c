@@ -16,6 +16,8 @@ If there is no enough space in the memory then array will not form.
 It is not possible to resize array once you declared it.
 
 Notes : if some index of array are not filled then they contains garbage value.
+
+The name of the array variable store the address of 0 index elemeent 
 */
 
 #include<stdio.h>
@@ -37,6 +39,10 @@ void main()
     //     printf("%d\n",Array2[i]);
     // }
 
-    printf("%ls/n",Array2);
+    printf("%p/n",Array2);
+
+    printf("Printing address of 0 index = %p\n",&Array2[0]);
+    printf("Printing address of 1 index = %p\n",&Array2[1]);
+    printf("Printing address of Array1 = %p\n",&Array2);
 
 }

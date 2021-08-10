@@ -1,3 +1,10 @@
+//by increment pointer with 1 it will add the size of data type it is created and point to the next index
+// we cannot increment array name bcoz it is constant
+
+//when we create the pointer of array we can use it as array  e.g int *ptra=arr;   so we can use it as ptra[2] to get the values
+// array are constant pointer which always holds the value of 0th index.
+
+
 #include<stdio.h>
 
 void main()
@@ -19,5 +26,5 @@ void main()
     printf("%d\n",*(array+2));    // array[i] is same as  *(array+2)
     printf("%d\n",*(array));        //it will print index 0 element
 
-    printf("%d\n",*(array+sizeof(int)));
+
 }
