@@ -25,6 +25,6 @@ void main()
     printf("%d\n",array[2]);    
     printf("%d\n",*(array+2));    // array[i] is same as  *(array+2)
     printf("%d\n",*(array));        //it will print index 0 element
-
+    printf("%p\n",array);
 
 }
