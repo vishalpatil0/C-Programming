@@ -1,6 +1,7 @@
 #include<stdio.h>
+int a;
 void main()
 {   
-    char a[]={'v','i','s'};
-    printf("%s",a);
+    int a;
+    // char a;
 }

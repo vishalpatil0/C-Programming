@@ -14,7 +14,8 @@ void main()
     int *ptra=array;
 
     printf("%p\n",ptra);    
-    printf("%p\n",&(array));    
+    printf("%p\n",array);    
+    printf("%p\n",&array);  //&array == array  bcoz both points to the base address of the array  
     printf("%d\n",*ptra);    
     printf("%d\n",array[0]);    
     printf("%d\n",array[1]);    
