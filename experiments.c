@@ -1,7 +1,10 @@
 #include<stdio.h>
-int a;
+#include "expr.c" //importing c file but main should not be there
+
 void main()
 {   
-    int a;
-    // char a;
+    extern int a;
+    printf("%d\n",a);
+    a=45;
+    printf("%d\n",a);
 }

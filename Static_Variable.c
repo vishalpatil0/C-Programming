@@ -4,6 +4,8 @@ They preserve their value from previous scope and not reinitilize again
 static variable remians in the memory thourgh out the span of program.
 static variables are initilized to 0 automatically
 can be initilized using constant literals
+
+NOTE: static variable scope si limited to the function only but they preserv their previous value
 */
 #include <stdio.h>
 void func(int a)
