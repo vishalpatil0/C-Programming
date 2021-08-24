@@ -1,7 +1,7 @@
 /*
 Runtime memory allocation and deallocation
 
-static memory allocation is done before the program there is not reusability and allocated memory cannot be freed and it is less effiecient
+static memory allocation is done before the program there is not reusability and allocated memory cannot be freed and it is less efficient
 
 memory assigned to program in c
 
@@ -9,7 +9,7 @@ memory assigned to program in c
 2- static/global variable -- a) data segment(intilized segment e.g. int i=4;) b) bss segment e.g int i;
 3- stack --grows when prgram go further 
 4- heap --grows when we dynamically memory allocation
-function get executed in stack k
+function get executed in stack
 
 use size command like size ./a.out
 
@@ -17,7 +17,7 @@ use size command like size ./a.out
 malloc [memory allocation]:-    reserves block of memory with given amount of bytes.
                                 return a void pointer to the allocated space in heap
                                 then the returned pointer need to be type casted before use 
-                                if the space is sufficient then the memory allocation fails and returns null pointer.
+                                if the space is insufficient then the memory allocation fails and returns null pointer.
                                 all the value allocated to memory are initilized garbage value.
 
                                 syntax :- pointer=(pointer-type *) malloc(size_in_bytes)

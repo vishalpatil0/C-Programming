@@ -1,4 +1,5 @@
 /*
+To able to pass function as an argument we use callback function
 Functions pointer are used for callback functions.
 We do not allocate de-allocate memory using function pointers.
 

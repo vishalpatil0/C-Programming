@@ -1,6 +1,7 @@
 /*
 String is a character array so changes in array as an paramter willl reflect in main 
-*/#include<stdio.h>
+*/
+#include<stdio.h>
 #include<string.h>
 #define namesize 100
 void reverse(char [],int);

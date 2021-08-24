@@ -3,7 +3,7 @@
 //goto is used to break mulitiple loop statements.
 //used to transfer programmed control to predefined label
 //also called as jump statement
-
+//try to avoid using goto bcoz it creates confusion.
 void main()
 {
  vishal:

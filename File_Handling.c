@@ -59,7 +59,7 @@ syntax
 #include<stdio.h>
 void main()
 {
-    char string[100]="Hellow myself vishal patil";
+    char string[100]="Hellow myself vishal patil\n"; //having \n at the end of string tells the fprintf function to add a new line at the end after writing to a file
     FILE *ptr=NULL;
 
     //Reading a filie

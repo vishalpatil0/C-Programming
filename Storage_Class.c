@@ -1,5 +1,5 @@
 /*
-Storage class are used to define the scop, default initial value and lifetime of a variable.
+Storage class are used to define the scope, default initial value and lifetime of a variable.
 
 1- Automatic variable
 scope-          local to the function body that they are defined in

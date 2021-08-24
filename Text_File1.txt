@@ -1,0 +1,4 @@
+Hello vishal
+This is first fprintf statment.This is first fprintf statment.
+This is first fprintf statment.
+ZWhat is the cost of lies?

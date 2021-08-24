@@ -11,10 +11,6 @@ sturcture elements are accessed with [.] dot operator which  is known as structu
 #include<string.h>
 #define namesize 100
 typedef struct student //here we create alias "std" for "struct student
-Namu
-9:26 pm
-￼
-"
 {
     int id;
     int marks;
