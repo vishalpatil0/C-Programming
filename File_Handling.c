@@ -110,4 +110,15 @@ void main()
     fputs("What is the cost of lies?",ptr);
 
     fclose(ptr);
+
+    //code to read whole file
+    FILE *fptr=fopen("Bill.txt","r");
+
+    char c=fgetc(fptr); 
+    while(c!=EOF)       //EOF denotes the end of the file   
+    {
+        printf("%c",c);
+        c=fgetc(fptr);
+    }
+    fclose(fptr);
 }
