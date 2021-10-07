@@ -7,7 +7,7 @@ It is suggested that alwyas initlized pointer to NULL.
 #include<stdio.h>
 void main()
 {
-    int *ptr;       //this is not a wild pointer
+    int *ptr;       //this is a wild pointer
     // *ptr=34;     // not a right thing to do .
     int num1=34;
     ptr=&num1;      //not a wild pointer anymore.
