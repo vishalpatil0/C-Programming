@@ -26,7 +26,7 @@ void main()
 {
     int Array1[10]; // Normal array declaration
     Array1[1]=34;   // Array initilzation
-
+    int arr[10]={}; //array of zero elements.
     int Array2[]={1,2,3,4}; //In this case size is not required.
 
     int Array3[3][2]; // Multidimensional array

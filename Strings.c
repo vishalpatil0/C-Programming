@@ -2,6 +2,7 @@
 //if you use doublt qoute then there is "\0" at the end automatically
 //but in the single qoute in curley braces you have to mentioned it at the end
 //if you mentioned null character in the middle of the string then the data after the Null character will not get treated as a part of string
+//strcmp returns 0 if there are same
 #include<stdio.h>
 #include<string.h>
 

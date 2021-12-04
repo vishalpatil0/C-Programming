@@ -1,6 +1,6 @@
 #include<stdio.h>
 //we can use break only in loop and swtich
-//continue skip the current iteration and jumjps to next one
+//continue skip the current iteration and jumps to next one
 
 int main(int argc, char const *argv[])
 {

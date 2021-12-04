@@ -23,8 +23,8 @@ void main() {
    //Float Nubmer
 
    float g=7.8977648378374;
-   printf("%7.1f\n",g);    // 7 is the total number of character it will print and number after point is the accuracy of number digit
+   printf("%-7.90f -->\n",g);    // 7 is the total number of character it will print and number after point is the accuracy of number digit
 
-    int a=12;
-    printf("%p\n",&a); //%p is used to print the address of the variable
+    int k=12;
+    printf("%p\n",&k); //%p is used to print the address of the variable
 }
