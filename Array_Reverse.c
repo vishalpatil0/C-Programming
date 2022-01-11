@@ -16,10 +16,13 @@ void main()
 void reverse(int ptra[],int N)
 {
     int temp;
-    for(int i=0,j=N-1;i<N/2;i++,j--)
+    int i=0,j=N-1;
+    while(i<=j)
     {
         temp=ptra[i];
         ptra[i]=ptra[j];
         ptra[j]=temp;
+        i++;
+        j--;
     }
 }
