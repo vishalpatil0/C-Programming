@@ -1,25 +1,20 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+float fun(float a,float b)
+{
+   float t=0;
+   while(b!=0)
+   {
+     t=t+a;
+     b=b-1;
+   }
+   return t;
+}
 void main()
 {
-   char *str;
-   int size;
-   printf("Enter the number of characters that = ");
-   scanf("%d",&size);
-
-   str=(char *) malloc((size+1)*sizeof(char));
-   printf("Enter the name of employee = ");
-   scanf("%s",str);
-   printf("\nName of the employee is %s\n",str);
-   for (int i = 0; i < 2; i++)
-   {
-      printf("Enter the number of characters that = ");
-      scanf("%d",&size);
-      str=(char *) realloc(str,(size+1)*sizeof(char));
-      printf("Enter the name of employee = ");
-      scanf("%s",str);
-      printf("\nName of the employee is %s\n",str);
-   }
-   free(str);
+   float a,b;
+   printf("Enter the value of n= ");
+   scanf("%f%f",&a,&b);
+   printf("%.10f\n",fun(a,b));
 }
