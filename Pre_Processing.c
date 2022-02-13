@@ -25,6 +25,7 @@ e.g     #define : define a macro
                         -define preprocessor variable.
                         -globally replaced a word with number
                         -can be used for debugging
+                        -don't take memory
                         -e.g
 
                         #define DEBUG
