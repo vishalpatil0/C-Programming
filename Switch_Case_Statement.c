@@ -2,6 +2,8 @@
 
 //only int and char are allowed in switch
 // if break is not there then all cases get executed
+// You can write default in any order in C.
+// but make sure then you have added break in default otherwise all the cases below the will get executed.
 
 void main()
 {
