@@ -7,7 +7,7 @@ void main() {
    int x = 45, y = 90;
    printf("%d\n", x);
    printf("%i\n", y);
-   float f = 12.67;
+   float f = 12.67f;
    printf("%f\n", f); //print float value
    printf("%e\n", f); //print in scientific notation
    int a = 67;

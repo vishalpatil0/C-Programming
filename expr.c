@@ -1,31 +1,31 @@
 #include <stdio.h>
-
-// only int and char are allowed in switch
-//  if break is not there then all cases get executed
-
-void main()
+#include <stdlib.h>
+int main()
 {
-   printf("Enter a number : ");
-   short a;
-   scanf("%hi", &a);
-   switch (a)
+   int **arr = (int**) calloc(2,sizeof(int*));
+
+   for (int i = 0; i < 2; i++)
    {
-   case 12:
-      printf("This is %d\n", 12);
-      break;
-
-   case 14:
-      printf("This is %d\n", 14);
-
-   case 16:
-      printf("This is %d\n", 16);
-      break;
-
-   default:
-      printf("Nothing have matched\n");
-      
-   case 56:
-      printf("this is 56\n");
-      break;
+      arr[i] = (int*) calloc(3,sizeof(int));
    }
+   for (int i = 0; i < 2; i++)
+   {
+      for (int j = 0; j < 3; j++)
+      {
+         arr[i][j] = i+j+11;
+      }
+   }
+   for (int i = 0; i < 2; i++)
+   {
+      for (int j = 0; j < 3; j++)
+      {
+         printf("%d\n",arr[i][j]);
+      }
+   }
+   for (int i = 0; i < 2; i++)
+   {
+      free(arr[i]);
+   }
+   free(arr);
+   return 0;
 }

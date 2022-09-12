@@ -31,7 +31,11 @@ calloc [contigous allocation]:- reserves N block of memory with given amount of 
 realloc [reallocation]:-    if dynamically allocated memory is insufficient then size get change using realloc() function.
                             syntax:-    ptr=(ptr-type*) realloc (ptr,new_Size_in_bytes);
 
-free:-  free(ptr) it frees the memory       
+free:-  free(ptr) it frees the memory    
+
+You can also perform pointer arithmetic on dynamic array.
+
+Except for {element,element} this type of intilization is not possible.
 */
 
 

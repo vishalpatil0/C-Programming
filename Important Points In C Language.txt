@@ -58,3 +58,6 @@ This command will creates the files that we discussed above.
 
 
 everything except 0 is true in c language
+
+in C language you can define, declare and intilized varaible out function scope.
+But you can't perform operation or instruction out of the scope.

@@ -6,9 +6,9 @@
 
     1) #define preprocessor
     2) const keyword*/
+const int a=10;
 void main()
 {    
-    const int a=10;
     // a=23;  cannot assigne new value to 'a' 
-
+    int a = 34; // this is valid becuase you reintilizing it in a different scope
 }

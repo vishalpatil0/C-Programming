@@ -1,7 +1,7 @@
 #include<stdio.h>
 void func(int array[])
 {
-    array[3]=44; //value changed in array parameter also reflect in arugemt array whcih is passed
+    array[3]=44; //value changed in array parameter also reflect in arugemt array which is passed
 }
 void func2(int *ptr)
 {
