@@ -1,31 +1,21 @@
-#include <stdio.h>
-#include <stdlib.h>
-int main()
-{
-   int **arr = (int**) calloc(2,sizeof(int*));
 
-   for (int i = 0; i < 2; i++)
-   {
-      arr[i] = (int*) calloc(3,sizeof(int));
-   }
-   for (int i = 0; i < 2; i++)
-   {
-      for (int j = 0; j < 3; j++)
-      {
-         arr[i][j] = i+j+11;
-      }
-   }
-   for (int i = 0; i < 2; i++)
-   {
-      for (int j = 0; j < 3; j++)
-      {
-         printf("%d\n",arr[i][j]);
-      }
-   }
-   for (int i = 0; i < 2; i++)
-   {
-      free(arr[i]);
-   }
-   free(arr);
-   return 0;
+#include<stdio.h>
+
+int sum(int a,int b)
+{
+    return a+b;
+}
+
+void disco(int (*fun)(int,int)){
+   printf("%d\n",(*fun)(1,3));
+}
+void main()
+{
+    printf("Sum of 5 AND 20 is %d\n",sum(5,20));
+    int (*fptr) (int,int);  //declaring a function pointer
+    fptr=&sum;              //creating a function pointer
+    int d=(*fptr)(5,6);
+    printf("The value of 5 + 6 is = %d\n",d);
+    disco(fptr);
+
 }
