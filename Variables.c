@@ -1,6 +1,6 @@
 /*
-Variable is a container which is used to store the data accordting to the data type it  was created with.
-if local and global variable have same name then the local variable will be used.
+Variable is a container which is used to store the data according to the data type it was created with.
+If local and global variable have same name then the local variable will be used.
 
 */
 #include<stdio.h>

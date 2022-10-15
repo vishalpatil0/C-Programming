@@ -5,7 +5,7 @@ static variable remians in the memory thourgh out the span of program so the add
 static variables are initilized to 0 automatically
 can be initilized using constant literals
 :- Even if they are declared and in a function and the function finishes it execution they still remain in the memory.
-NOTE: static variable scope is limited to the function only but they preserv their previous value
+NOTE: static variable scope is limited to the function only but they preserve their previous value
 */
 #include <stdio.h>
 void func(int a)

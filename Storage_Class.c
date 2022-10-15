@@ -23,7 +23,7 @@ extern keyword tells compiler that given variable is declared somewhere else
 using extern will not allocate space to compiler
 
 
-3- static variable      [ONLY ONE TME INITILIZATION] means if you intilize it twice then it will not get intitilzed it preserves it previous value
+3- static variable      [ONLY ONE TIME INITILIZATION] means if you intilize it twice then it will not get intitilzed it preserves it previous value
 
 scope-          local to the block of the variable they are defined in.
 defulat vlaue-  0
