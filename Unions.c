@@ -17,7 +17,7 @@ typedef union student
 
 void main()
 {
-    
+    std s1;
     s1.id=22;
     s1.marks=340;
     strcpy(s1.name,"vishal");

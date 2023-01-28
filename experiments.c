@@ -1,8 +1,16 @@
 #include<stdio.h>
-#include<string.h>
-void main()
+#include "expr.c"
+#define name "name"
+#define Power(x,y){\
+                for(int i = 0;i<y;i++){\
+                    x*=x;}\
+                    }\
+                    x
+int main(int argc, char const *argv[])
 {
-    char str1[]="Vishal";
-    char str2[]="Vishal";
-    printf("%d",strcmp(str1,str2));
+    /* code */
+    printf("%s\n",name);
+    printf("%d\n",Power(2,3));
+    return 0;
 }
+

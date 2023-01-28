@@ -23,6 +23,7 @@ void main()
     printf("%p\n",ptra);    
     printf("%p\n",&array[1]);
 
+
     printf("%d\n",array[2]);    
     printf("%d\n",*(array+2));    // array[i] is same as  *(array+2)
     printf("%d\n",*(array));        //it will print index 0 element
