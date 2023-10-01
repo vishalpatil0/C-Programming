@@ -7,26 +7,25 @@
 
 #include<stdio.h>
 
-void main()
+int main()
 {   
     int array[]={1,2,4,5,6};
 
     int *ptra=array;
 
-    printf("%p\n",ptra);    
-    printf("%p\n",array);    
-    printf("%p\n",&array);  //&array == array  bcoz both points to the base address of the array  
-    printf("%d\n",*ptra);    
-    printf("%d\n",array[0]);    
-    printf("%d\n",array[1]);    
-    printf("%d\n",*(++ptra));    
-    printf("%p\n",ptra);    
-    printf("%p\n",&array[1]);
+    printf("ptra ->       %p\n",ptra);    
+    printf("array ->      %p\n",array);    
+    printf("&array ->     %p\n",&array);  //&array == array  bcoz both points to the base address of t he array  
+    printf("*ptra ->      %d\n",*ptra);    
+    printf("array[0] ->   %d\n",array[0]);    
+    printf("array[1] ->   %d\n",array[1]);    
+    printf("*(++ptra) ->  %d\n",*(++ptra));    
+    printf("ptra ->       %p\n",ptra);    
+    printf("&array[1] ->  %p\n",&array[1]);
+    printf("array[2] ->   %d\n",array[2]);    
+    printf("*(array+2) -> %d\n",*(array+2));    // array[i] is same as  *(array+2)
+    printf("*(array)->    %d\n",*(array));        //it will print index 0 element
+    printf("array ->      %p\n",array);
 
-
-    printf("%d\n",array[2]);    
-    printf("%d\n",*(array+2));    // array[i] is same as  *(array+2)
-    printf("%d\n",*(array));        //it will print index 0 element
-    printf("%p\n",array);
-
+    return 0;
 }

@@ -34,7 +34,7 @@ It convert the preprocess .i file into .s file which is assembly file.
 
  
 
-.s file get converted into .o file which is machine level insturnction. 
+.s file get converted into .o file which is machine level instruction. 
 
  
 

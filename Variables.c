@@ -4,7 +4,7 @@ If local and global variable have same name then the local variable will be used
 
 */
 #include<stdio.h>
-int a=12;;          //global delcaration
+int a=12;           //global delcaration
 #define max 100     //constant variable created while pre processing 
 const int vishal=32;//constant with const keyword which can be change by reinitilizing it
 void main()
